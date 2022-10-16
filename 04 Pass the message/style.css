@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    /* position: relative; */
+    background-color: hsl(160, 100%, 75%);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.container {
+    /* border: 5px solid red; */
+    padding: 15px 8px;
+    box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.359);
+    background-color: rgb(245, 245, 245);
+}
+.heading{
+    text-align: center;
+    font-weight: 500;
+}
+.inputBox{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 12px 15px;
+}
+
+#btn {
+    display: block;
+    margin : 0px auto;
+    font-size: 1.1rem;
+    padding: 10px 16px;
+    background-color: aquamarine;  
+}
+#btn:hover, #btn:visited {
+    background-color: hsl(160, 100%, 85%);
+}
+#lastMsg {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 13px;
+}
+
+#message {
+    text-align: center;
+    margin-top: 13px;
+    color:hsl(160, 100%, 35%) ;
+}
