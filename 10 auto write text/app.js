@@ -7,7 +7,7 @@ let index = 0;
 function writePost () {
     body.textContent = text.slice(0,index);
     index++
-    if(length>text.length){
+    if(index>text.length){
         index =0
     }
 }
